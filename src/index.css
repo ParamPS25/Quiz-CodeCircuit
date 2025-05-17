@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
 @import "tailwindcss";
 
 @keyframes gradientBackground {
@@ -13,7 +17,17 @@
 }
 
 .animated-gradient-bg {
-  background: linear-gradient(-45deg, #113983, #131430, #0e035f, #5d5a07);
+  background: linear-gradient(-45deg, #113983, #0f7056, #03115f, #cd2ea5);
   background-size: 400% 400%;
   animation: gradientBackground 15s ease infinite;
 }
+
+.heading {
+  font-family: 'Lobster', cursive;
+}
+
+.heading-2{
+  font-family: 'Playfair';
+  font-size: 1.5rem;
+  font-weight: 700; 
+} 
